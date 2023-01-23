@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Criar Conta</title>
+</head>
+<body> 
+    <main>
+        <section id="coluna1"></section>
+
+        <section id="coluna2">
+            <div id="div-principal">
+
+                <h2 id="texto-criar">CRIAR UMA CONTA</h2>
+
+                <form id="form-signup">
+
+                    <label for="signup-email" id="label-input-email" >e-mail:</label>
+                    <input 
+                        type="email" 
+                        name="input-email"
+                        class="input-signup"
+                        id="input-signup-email"
+                        placeholder="nome@email.com.br">
+                
+                    <label for="signup-senha" id="label-input-senha">senha:</label>
+                    <input 
+                        type="password" 
+                        name="signup-senha" 
+                        class="input-signup" 
+                        id="input-signup-senha" 
+                        placeholder="123456">
+
+                    <label for="signup-senha" id="label-input-repete-senha">repete senha:</label>
+                    <input 
+                        type="password" 
+                        name="signup-repete-senha" 
+                        class="input-signup" 
+                        id="input-signup-repete-senha" 
+                        placeholder="123456">
+                
+                    <input id="btn-criar" type="submit" class="btn" value="CRIAR CONTA">                    
+                    
+                </form> 
+
+                <div><a id="link-voltar" href="./index.html">VOLTAR PARA LOGIN</a> </div>           
+            </div>        
+        </section>
+    </main>
+    <script src="./script/signup.js"></script>
+</body>
+</html>
